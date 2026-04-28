@@ -18,7 +18,7 @@ setup(name='talon-core',
           "lxml>=2.3.3",
           "regex>=1",
           'chardet>=1.0.1',
-          'cchardet>=0.3.5',
+          'charset-normalizer',
           'cssselect',
           'six>=1.10.0',
           'html5lib'
