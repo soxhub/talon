@@ -4,7 +4,7 @@ from __future__ import absolute_import
 
 from random import shuffle
 
-import cchardet
+import charset_normalizer as cchardet
 import chardet
 import html5lib
 import regex as re
@@ -74,7 +74,7 @@ def quick_detect_encoding(string):
     """
     Tries to detect the encoding of the passed string.
 
-    Uses cchardet. Fallbacks to detect_encoding.
+    Uses charset-normalizer. Fallbacks to detect_encoding.
     """
     assert isinstance(string, bytes)
     try:

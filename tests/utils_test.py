@@ -2,7 +2,7 @@
 
 from __future__ import absolute_import
 
-import cchardet
+import charset_normalizer as cchardet
 import six
 
 from talon import utils as u
